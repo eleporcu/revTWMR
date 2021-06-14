@@ -11,7 +11,7 @@ This folder includes the matrixes used to perform revTWMR analyses for BMI using
 
 How to run the script:
 
-R < revTWMR.R --no-save bmi.matrix.betaGWAS bmi genes.N &
+R < revTWMR.R --no-save bmi.matrix.betaGWAS bmi genes.N 
 
 
 The output files is a .txt file containing the following columns:
