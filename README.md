@@ -4,7 +4,7 @@
 
 
 revTWMR.R requires two input files:
-- a matrix containing the univariate effect size of n SNPs on k gene expressions (these estimates come from an eQTL study) and the univariate effect sizes on the phenotype. The last four columns are: 
+- a matrix containing the univariate effect size of n SNPs on k gene expressions (these estimates come from an eQTL study) and the univariate effect sizes on the phenotype. The last three columns are: BETA_GWAS SE N
 - a two column file (delimited by space) with gene and samplesize
 
 This folder includes the matrixes used to perform revTWMR analyses for BMI using the trans-eQTLs results downloaded from https://molgenis26.gcc.rug.nl/downloads/eqtlgen/trans-eqtl/2018-09-04-trans-eQTLsFDR-CohortInfoRemoved-BonferroniAdded.txt.gz (Vosa et al, bioRxiv 2018) and the BMI-GWAS results downloaded from http://www.nealelab.is/uk-biobank/
